@@ -37,9 +37,10 @@
             // 
             // mos
             // 
-            this.mos.Location = new System.Drawing.Point(368, 151);
+            this.mos.Location = new System.Drawing.Point(491, 186);
+            this.mos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.mos.Name = "mos";
-            this.mos.Size = new System.Drawing.Size(75, 23);
+            this.mos.Size = new System.Drawing.Size(100, 28);
             this.mos.TabIndex = 0;
             this.mos.Text = "mostrar";
             this.mos.UseVisualStyleBackColor = true;
@@ -47,9 +48,10 @@
             // 
             // limpiar
             // 
-            this.limpiar.Location = new System.Drawing.Point(487, 122);
+            this.limpiar.Location = new System.Drawing.Point(649, 150);
+            this.limpiar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.limpiar.Name = "limpiar";
-            this.limpiar.Size = new System.Drawing.Size(75, 23);
+            this.limpiar.Size = new System.Drawing.Size(100, 28);
             this.limpiar.TabIndex = 1;
             this.limpiar.Text = "limpiar";
             this.limpiar.UseVisualStyleBackColor = true;
@@ -57,25 +59,29 @@
             // 
             // txtnombre
             // 
-            this.txtnombre.Location = new System.Drawing.Point(368, 125);
+            this.txtnombre.Location = new System.Drawing.Point(491, 154);
+            this.txtnombre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtnombre.Name = "txtnombre";
-            this.txtnombre.Size = new System.Drawing.Size(104, 20);
+            this.txtnombre.Size = new System.Drawing.Size(137, 22);
             this.txtnombre.TabIndex = 2;
+            this.txtnombre.TextChanged += new System.EventHandler(this.txtnombre_TextChanged);
             // 
             // nombre
             // 
             this.nombre.AutoSize = true;
-            this.nombre.Location = new System.Drawing.Point(365, 109);
+            this.nombre.Location = new System.Drawing.Point(487, 134);
+            this.nombre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.nombre.Name = "nombre";
-            this.nombre.Size = new System.Drawing.Size(91, 13);
+            this.nombre.Size = new System.Drawing.Size(114, 16);
             this.nombre.TabIndex = 3;
             this.nombre.Text = "ingresa tu nombre";
             // 
             // salir
             // 
-            this.salir.Location = new System.Drawing.Point(251, 122);
+            this.salir.Location = new System.Drawing.Point(335, 150);
+            this.salir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.salir.Name = "salir";
-            this.salir.Size = new System.Drawing.Size(75, 23);
+            this.salir.Size = new System.Drawing.Size(100, 28);
             this.salir.TabIndex = 4;
             this.salir.Text = "salir";
             this.salir.UseVisualStyleBackColor = true;
@@ -83,14 +89,15 @@
             // 
             // mostrar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.salir);
             this.Controls.Add(this.nombre);
             this.Controls.Add(this.txtnombre);
             this.Controls.Add(this.limpiar);
             this.Controls.Add(this.mos);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "mostrar";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);

@@ -42,5 +42,10 @@ namespace tareas_progra
         {
             this.Close();
         }
+
+        private void txtnombre_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
