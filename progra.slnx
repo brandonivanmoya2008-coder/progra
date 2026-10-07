@@ -1,4 +1,6 @@
 <Solution>
+  <Project Path="opcion ingresada/opcion ingresada.csproj" Id="b361b6ca-25d7-42f6-acca-b531c7052196" />
   <Project Path="sumas y multis/sumas y multis.csproj" Id="03334795-247b-43c3-938b-a98c89c215b3" />
+  <Project Path="tarea listboxcolores/tarea listboxcolores.csproj" Id="82c0a0dd-ae58-4adf-8d0b-f8135219e051" />
   <Project Path="tareas progra/tareas progra.csproj" Id="3c32c52c-9021-4ff8-9153-10707d005c14" />
 </Solution>
