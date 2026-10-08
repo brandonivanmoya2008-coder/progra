@@ -19,9 +19,9 @@ namespace opcion_ingresada
 
         private void btnseleccionar_Click(object sender, EventArgs e)
         {
-            string v = txtOpcion.Text.ToLower();
-            using opcion n= v;
-              switch (opcion)
+            string opcion;
+            opcion = txtOpcion.Text.ToLower();
+            switch (opcion)
             {
                 case "opcion 1":
                     MessageBox.Show("elegiste la opcion 1");

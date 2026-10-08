@@ -1,4 +1,4 @@
-﻿namespace opcion_ingresada
+﻿namespace confirmacion_de_accion
 {
     partial class Form1
     {
@@ -28,45 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtOpcion = new System.Windows.Forms.TextBox();
-            this.btnseleccionar = new System.Windows.Forms.Button();
+            this.btnsalir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // txtOpcion
+            // btnsalir
             // 
-            this.txtOpcion.Location = new System.Drawing.Point(371, 148);
-            this.txtOpcion.Name = "txtOpcion";
-            this.txtOpcion.Size = new System.Drawing.Size(100, 22);
-            this.txtOpcion.TabIndex = 0;
-            // 
-            // btnseleccionar
-            // 
-            this.btnseleccionar.Location = new System.Drawing.Point(381, 176);
-            this.btnseleccionar.Name = "btnseleccionar";
-            this.btnseleccionar.Size = new System.Drawing.Size(75, 23);
-            this.btnseleccionar.TabIndex = 1;
-            this.btnseleccionar.Text = "seleccionar";
-            this.btnseleccionar.UseVisualStyleBackColor = true;
-            this.btnseleccionar.Click += new System.EventHandler(this.btnseleccionar_Click);
+            this.btnsalir.Location = new System.Drawing.Point(339, 162);
+            this.btnsalir.Name = "btnsalir";
+            this.btnsalir.Size = new System.Drawing.Size(75, 23);
+            this.btnsalir.TabIndex = 0;
+            this.btnsalir.Text = "salir";
+            this.btnsalir.UseVisualStyleBackColor = true;
+            this.btnsalir.Click += new System.EventHandler(this.btnsalir_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnseleccionar);
-            this.Controls.Add(this.txtOpcion);
+            this.Controls.Add(this.btnsalir);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtOpcion;
-        private System.Windows.Forms.Button btnseleccionar;
+        private System.Windows.Forms.Button btnsalir;
     }
 }
 

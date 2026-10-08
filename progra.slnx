@@ -1,4 +1,7 @@
 <Solution>
+  <Project Path="confirmacion de accion/confirmacion de accion.csproj" Id="658b7dc8-ba63-4a1a-9dff-561cbb747b79" />
+  <Project Path="formulario 1 al 7/formulario 1 al 7.csproj" Id="13abace2-3759-40d7-ab20-c81e811b80ed" />
+  <Project Path="integracion completa/integracion completa.csproj" Id="5fd951a1-b0de-4f58-91ff-e9f046044936" />
   <Project Path="opcion ingresada/opcion ingresada.csproj" Id="b361b6ca-25d7-42f6-acca-b531c7052196" />
   <Project Path="sumas y multis/sumas y multis.csproj" Id="03334795-247b-43c3-938b-a98c89c215b3" />
   <Project Path="tarea listboxcolores/tarea listboxcolores.csproj" Id="82c0a0dd-ae58-4adf-8d0b-f8135219e051" />

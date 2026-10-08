@@ -1,4 +1,4 @@
-﻿namespace opcion_ingresada
+﻿namespace integracion_completa
 {
     partial class Form1
     {
@@ -28,34 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtOpcion = new System.Windows.Forms.TextBox();
-            this.btnseleccionar = new System.Windows.Forms.Button();
+            this.btnMostrar = new System.Windows.Forms.Button();
+            this.txtNumero = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // txtOpcion
+            // btnMostrar
             // 
-            this.txtOpcion.Location = new System.Drawing.Point(371, 148);
-            this.txtOpcion.Name = "txtOpcion";
-            this.txtOpcion.Size = new System.Drawing.Size(100, 22);
-            this.txtOpcion.TabIndex = 0;
+            this.btnMostrar.Location = new System.Drawing.Point(359, 156);
+            this.btnMostrar.Name = "btnMostrar";
+            this.btnMostrar.Size = new System.Drawing.Size(75, 23);
+            this.btnMostrar.TabIndex = 0;
+            this.btnMostrar.Text = "Mostrar";
+            this.btnMostrar.UseVisualStyleBackColor = true;
+            this.btnMostrar.Click += new System.EventHandler(this.btnMostrar_Click);
             // 
-            // btnseleccionar
+            // txtNumero
             // 
-            this.btnseleccionar.Location = new System.Drawing.Point(381, 176);
-            this.btnseleccionar.Name = "btnseleccionar";
-            this.btnseleccionar.Size = new System.Drawing.Size(75, 23);
-            this.btnseleccionar.TabIndex = 1;
-            this.btnseleccionar.Text = "seleccionar";
-            this.btnseleccionar.UseVisualStyleBackColor = true;
-            this.btnseleccionar.Click += new System.EventHandler(this.btnseleccionar_Click);
+            this.txtNumero.Location = new System.Drawing.Point(349, 119);
+            this.txtNumero.Name = "txtNumero";
+            this.txtNumero.Size = new System.Drawing.Size(100, 22);
+            this.txtNumero.TabIndex = 1;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnseleccionar);
-            this.Controls.Add(this.txtOpcion);
+            this.Controls.Add(this.txtNumero);
+            this.Controls.Add(this.btnMostrar);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -65,8 +65,8 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtOpcion;
-        private System.Windows.Forms.Button btnseleccionar;
+        private System.Windows.Forms.Button btnMostrar;
+        private System.Windows.Forms.TextBox txtNumero;
     }
 }
 
